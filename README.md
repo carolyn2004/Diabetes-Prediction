@@ -15,10 +15,10 @@ https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset
 ![image](https://user-images.githubusercontent.com/100062535/227513721-be925966-9fff-4912-a6b0-e14315770aa9.png)
 
 # Website 
+![image](https://user-images.githubusercontent.com/100062535/227515457-2071ef42-563e-427a-9bfe-e54d00606352.png)
+![image](https://user-images.githubusercontent.com/100062535/227515509-dc3007f9-e39f-4b37-97b8-08804812fc59.png)
+![image](https://user-images.githubusercontent.com/100062535/227515563-58805335-436c-4d93-bf9b-c85120bfde3a.png)
 
-![image](https://user-images.githubusercontent.com/100062535/227515228-48ad70d9-1de8-4692-9984-5db5cc84061a.png)
-![image](https://user-images.githubusercontent.com/100062535/227515279-efea3edf-08f0-4a85-9176-0785f8e076ae.png)
-![image](https://user-images.githubusercontent.com/100062535/227515300-ec8df2ad-c4ef-4795-8890-40f062adf313.png)
 
 
 
