@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Diabetes Prediction</title>
+  <style>
+      body {
+  overflow-x: hidden; /* Hide scrollbars */
+}
+	body {
+		font-family: Verdana;
+		font-size: 12px;
+	}
+   * {
+       
+  box-sizing: border-box;
+}
+footer .container, footer .row {
+  background-color: transparent !important;
+}
+
+
+.bg-img {
+  background-image: url("https://i.postimg.cc/50jCKXQ8/image.png");
+  min-height: 665px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+width:95%;
+margin-left:-15px;
+}
+
+
+.container {
+  margin: 20px;
+    margin-left:50%;
+  max-width: 50%;
+  padding: 16px;
+  background-color: white;
+
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.btn {
+   border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+   
+    
+}
+      .button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #1f2f51;
+           width:96.5%;
+       
+       
+         
+}
+
+.button2:hover {
+  background-color: #1f2f51;
+  color: white;
+}
+  </style> 
+</head>
+
+<body style="margin-right:11rem;width:110%">
+    <body style="margin-left:-200px">
+   <nav style="background-color:#1f2f51;margin-top:-10px;width: 103.5%; margin-left:-20px; display: flex; align-items: center; justify-content: space-between; padding: 10px;">
+    <div style="display: flex; align-items: center; margin-left:10px;">
+        <img src="https://i.postimg.cc/Gt0YJxf2/photo1676446521.jpg" alt="Logo" style="height: 40px; border-radius: 50%;">
+    </div>
+</nav>
+    <div style="background-color:#314560;">
+<div style="width: 90%; height: 600px; margin-top:-10px; margin-left:-20px; background-image: url('https://i.postimg.cc/qvDWVn6R/photo1676373494.jpg'); background-size: cover;"></div></div>
+
+<div class="bg-img" style="margin-top:-20px">
+   <form action="/predict" method="post" class="container">
+  <label for="Pregnancies" style="font-weight:bold;font-size:medium">Number of times you have been pregnant</label><br>
+  <input type="text" id="Pregnancies" name="Pregnancies" placeholder="Pregnancies" required><br>
+
+  <label for="Glucose" style="font-weight:bold;font-size:medium">Plasma glucose concentration in 2 hours for oral glucose tolerance test</label><br>
+  <input type="text" id="Glucose" name="Glucose" placeholder="Glucose" required><br>
+
+  <label for="SkinThickness" style="font-weight:bold;font-size:medium">Triceps skin fold thickness (mm)</label><br>
+  <input type="text" id="SkinThickness" name="SkinThickness" placeholder="Skin Thickness" required><br>
+
+  <label for="BMI" style="font-weight:bold; font-size:medium">Body Mass Index (BMI)</label><br>
+  <input type="text" id="BMI" name="BMI" placeholder="BMI" required><br>
+
+  <label for="Insulin_transformed" style="font-weight:bold;font-size:medium">Insulin level in blood (mu U/ml)</label><br>
+  <input type="text" id="Insulin_transformed" name="Insulin_transformed" placeholder="Insulin" required><br>
+
+  <label for="DiabetesPedigreeFunction_transformed" style="font-weight:bold;font-size:medium">Diabetes pedigree function</label><br>
+  <input type="text" id="DiabetesPedigreeFunction_transformed" name="DiabetesPedigreeFunction_transformed" placeholder="Diabetes Pedigree Function" required><br>
+
+  <label for="Age_transformed" style="font-weight:bold;font-size:medium">Age (years)</label><br>
+  <input type="text" id="Age_transformed" name="Age_transformed" placeholder="Age" required><br>
+
+  <button class="button button2" type="submit">Predict Now!</button>
+</form>
+    </div>
+        <p><strong style="font-size:x-large">Result:</strong> <span style="font-size:medium">{{ diabetes_prediction }}</span></p>
+        <p> Please note that this test is suitable for females only. </p>
+<footer  style="background-color: black;height:max-content; margin-bottom:-3px; width:130%; margin-left:-300px; color: white; padding: 20px; position: relative;">
+  <div>
+    <div class="row">
+      <div class="col-md-6 mx-auto text-center">
+        <p style="position: absolute; bottom: 0; left: 0; right: 0; text-align: center;">&copy; 2023 DiabetesPrediction. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+</body>
+     
+    
+</html>
