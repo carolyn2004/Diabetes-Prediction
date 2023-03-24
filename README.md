@@ -16,6 +16,11 @@ https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset
 
 # Website 
 
+![image](https://user-images.githubusercontent.com/100062535/227515228-48ad70d9-1de8-4692-9984-5db5cc84061a.png)
+![image](https://user-images.githubusercontent.com/100062535/227515279-efea3edf-08f0-4a85-9176-0785f8e076ae.png)
+![image](https://user-images.githubusercontent.com/100062535/227515300-ec8df2ad-c4ef-4795-8890-40f062adf313.png)
+
+
 
 
   
